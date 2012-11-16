@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QWidget>
+#include <QtGui>
 
 namespace Ui {
 class kalender;
@@ -18,6 +19,13 @@ public:
     
 private:
     Ui::kalender *ui;
+
+signals:
+
+
+private slots:
+    void matias();
+    void opprett();
 };
 
 #endif // KALENDER_H
